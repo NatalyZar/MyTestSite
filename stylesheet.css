@@ -1,0 +1,212 @@
+@import url('fonts.googleapis.com/css?family=Merriweather');
+
+body {
+    font-family: "Merriweather", sans-serif;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    margin: 100px 0 150px;
+}
+
+#read_more_link {
+    border: solid 2px white;
+    padding: 15px 20px;
+    border-radius: 100px;
+    margin-left: 300px;
+    margin: 410px;
+    text-decoration: none;
+    color: black;
+}
+
+#read_more_link:hover{
+    background-color: black;
+    color: white;
+}
+
+#description {
+    width: 400px;
+    font-size: x-large;
+    float: right;
+    margin: -100;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul {
+   display: inline-block;
+   margin: 0;
+}
+
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1000px;
+    top: 0;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#main_link {
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+#robot {
+   position:absolute;
+   right: 1000px;
+   top: 350px;
+   height: 300px;
+}
+
+h2 {
+    font-family: "Merriweather", sans-serif;
+    font-size: 80px;
+    margin-top: 350px;
+}
+#about_me p{
+    font-size: 40px;
+    width: 400px;
+    float: right;
+    margin: 0px 0;
+}
+
+#about_me img {
+    height: 300px;
+    mix-blend-mode: overlay;
+}
+
+.background{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#main .background {
+    top: 0;
+    background: radial-gradient(#77C7E8,#D4E6E4);
+    height: 770px;
+
+}
+
+#about_me .background {
+    top: 770px;
+    background: #D4E6E4;
+    height: 770px;
+}
+
+#skills .background{
+    top: 1500px;
+    background: linear-gradient(#2DD8F0, #1F46A8);
+    height: 770px;
+}
+
+#skills {
+    color: white
+}
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+#skills figure img{
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#skills figure figcaption{
+    font-size: 20px;
+}
+
+#project .background{
+    top: 2450px;
+    background-color: #77C7E8;
+    height: 800px;
+}
+
+#project .gallery{
+        
+    float: right;
+    width: 50%;
+    padding-top: 10px;
+}
+
+#project p{
+    width: 50%;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#how .background{
+    top: 3250px;
+    background: linear-gradient(#2DD8F0, #1F46A8);
+    height: 950px;
+}
+
+#how{
+    color: white;
+    padding: 100px 0;
+}
+
+#how img{
+    position: absolute;
+}
+ 
+#plans h2 {
+    text-align: right;
+}
+
+#plans .background {
+    top: 4000px;
+    background: #2DD8F0;
+    height: 750px;
+}
+
+#plans table{
+    font-size: large;
+    float: right;
+}
+
+#plans table td{
+    vertical-align: top;
+    padding: 0 0 30px 60px;
+}
+
+#thanks{
+    clear: both;
+    padding: 100px 0;
+    color: white;
+}
+
+#thanks .background{
+    top: 4800px;
+    background: black;
+    height: 550px;
+}
+
+
